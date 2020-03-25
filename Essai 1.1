@@ -5,3 +5,24 @@ s
 
 deuxième
 barnba 
+
+
+
+pacman::p_load(tidyverse, MASS, mice, jomo)
+
+   #######################################
+   #### Simulation d'un jeu de données ###
+   #######################################
+
+n <- 20
+r1_2 <- .5
+int <- 1
+b1 <- 1
+b2 <- -1
+
+?mvrnorm
+# n: the number of samples required
+# mu= a vector giving the means of the variables
+# Sigma: a positive-definite symmetric matrix specifying the covariance matrix of the variables. 
+# (1   0.5
+#  0.5   1)
